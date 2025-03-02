@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://www.coaching.qastia.com",
+  "homepage2": "https://www.coaching.qastia.com",
+  "homepage": "https://bjalon.github.io/qastia-coaching",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
