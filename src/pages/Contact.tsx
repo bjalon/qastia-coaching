@@ -82,7 +82,7 @@ const Contact: React.FC = () => {
                                 id="message"
                                 name="message"
                                 required
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-40 resize-y"
                                 placeholder="Votre message"
                             />
                         </div>
