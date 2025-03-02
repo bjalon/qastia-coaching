@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const References: React.FC = () => {
     // Exemple de données de témoignages
     const testimonials = [
-        { id: 1, name: 'Alice', comment: 'Grâce à Coaching Pro, j’ai atteint mes objectifs professionnels !' },
+        { id: 1, name: 'Alice', comment: 'Grâce à Qastia Coaching, j’ai atteint mes objectifs professionnels !' },
         { id: 2, name: 'Bob', comment: 'Une approche personnalisée et très professionnelle.' },
         { id: 3, name: 'Charlie', comment: 'Les séances m’ont permis de prendre confiance en moi et de réussir.' },
     ];

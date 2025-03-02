@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
             <Helmet>
                 <title>Contact - Coaching Pro</title>
                 <meta name="description" content="Contactez-nous pour en savoir plus sur nos services de coaching professionnel." />
-                <meta property="og:title" content="Contact - Coaching Pro" />
+                <meta property="og:title" content="Contact - Qastia Coaching" />
             </Helmet>
             <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}

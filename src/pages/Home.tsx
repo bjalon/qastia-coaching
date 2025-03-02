@@ -6,9 +6,9 @@ const Home: React.FC = () => {
     return (
         <>
             <Helmet>
-                <title>Accueil - Coaching Pro</title>
+                <title>Accueil - Qastia Coaching</title>
                 <meta name="description" content="Découvrez nos services de coaching pour booster votre carrière et atteindre vos objectifs." />
-                <meta property="og:title" content="Coaching Pro" />
+                <meta property="og:title" content="Qastia Coaching" />
                 <meta property="og:description" content="Coaching professionnel pour booster votre carrière." />
             </Helmet>
             <motion.div

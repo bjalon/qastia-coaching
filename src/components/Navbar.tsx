@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
     return (
         <header className="bg-white shadow">
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-                <Link to="/" className="text-xl font-bold text-purple-700">Coaching Pro</Link>
+                <Link to="/" className="text-xl font-bold text-purple-700">Qastia Coaching</Link>
                 <nav>
                     <ul className="flex space-x-4">
                         <li>
