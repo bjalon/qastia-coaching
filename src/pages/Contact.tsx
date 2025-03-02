@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
 
         try {
             // Remplacez "yourFormID" par votre identifiant Formspree
-            const response = await fetch("https://formspree.io/f/yourFormID", {
+            const response = await fetch("https://formspree.io/f/xanqrpvn", {
                 method: "POST",
                 headers: {
                     Accept: "application/json"
