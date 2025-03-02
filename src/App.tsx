@@ -1,30 +1,25 @@
-// src/App.tsx
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Navigation from './components/Navigation.tsx';
 import Home from './pages/Home';
 import References from './pages/References';
 import Contact from './pages/Contact';
-import './styles/global.css';
 
-function App() {
+const App: React.FC = () => {
     return (
-        <Router>
-            <div className="app-container">
-                <Header />
-                <Navigation />
-                <main>
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/references" element={<References />} />
-                        <Route path="/contact" element={<Contact />} />
-                    </Routes>
-                </main>
-                <Footer />
-            </div>
-        </Router>
+        <div className="flex flex-col min-h-screen">
+            <Navbar />
+            <main className="flex-grow container mx-auto px-4 py-8">
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/references" element={<References />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Routes>
+            </main>
+            <Footer />
+        </div>
     );
-}
+};
 
 export default App;
