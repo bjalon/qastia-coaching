@@ -14,8 +14,8 @@ const Navbar: React.FC = () => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/references" className={({isActive}) => isActive ? 'text-purple-700 font-semibold' : 'text-gray-600'}>
-                                Références
+                            <NavLink to="/info" className={({isActive}) => isActive ? 'text-purple-700 font-semibold' : 'text-gray-600'}>
+                                Qui sommes-nous ?
                             </NavLink>
                         </li>
                         <li>

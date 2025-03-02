@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
     return (
         <>
             <Helmet>
-                <title>Contact - Coaching Pro</title>
+                <title>Contact - Qastia Coaching</title>
                 <meta name="description" content="Contactez-nous pour en savoir plus sur nos services de coaching professionnel." />
                 <meta property="og:title" content="Contact - Qastia Coaching" />
             </Helmet>

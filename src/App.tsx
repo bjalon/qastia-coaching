@@ -13,7 +13,7 @@ const App: React.FC = () => {
             <main className="flex-grow container mx-auto px-4 py-8">
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/references" element={<References />} />
+                    <Route path="/info" element={<References />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
             </main>
